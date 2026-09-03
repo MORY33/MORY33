@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Rafał Karwot</title>
+  <desc id="desc">Backend engineer building distributed systems and AI-powered products</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1b31"/>
+      <stop offset="1" stop-color="#102845"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#39d5ff"/>
+      <stop offset="1" stop-color="#72f6b5"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#2ed8ff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#2ed8ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#8ab4df" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <circle cx="1060" cy="60" r="310" fill="url(#glow)"/>
+  <circle cx="1080" cy="85" r="94" fill="none" stroke="#4ce2ff" stroke-opacity="0.18" stroke-width="1"/>
+  <circle cx="1080" cy="85" r="62" fill="none" stroke="#72f6b5" stroke-opacity="0.24" stroke-width="1"/>
+  <circle cx="1080" cy="85" r="7" fill="#72f6b5" filter="url(#soft-glow)"/>
+
+  <g opacity="0.6" fill="none" stroke-linecap="round">
+    <path d="M945 220 H1015 L1052 257 H1138" stroke="#39d5ff" stroke-width="2"/>
+    <path d="M925 253 H980 L1014 287 H1095" stroke="#72f6b5" stroke-width="2"/>
+    <path d="M985 187 H1062 L1091 216 H1160" stroke="#7898bd" stroke-width="1.5"/>
+    <circle cx="945" cy="220" r="4" fill="#39d5ff" stroke="none"/>
+    <circle cx="925" cy="253" r="4" fill="#72f6b5" stroke="none"/>
+    <circle cx="985" cy="187" r="3" fill="#7898bd" stroke="none"/>
+  </g>
+
+  <rect x="76" y="76" width="54" height="6" rx="3" fill="url(#accent)"/>
+  <text x="76" y="163" fill="#f7fbff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="1">RAFAŁ KARWOT</text>
+  <text x="79" y="215" fill="#a9bfd8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="400" letter-spacing="0.7">BACKEND  ·  DISTRIBUTED SYSTEMS  ·  AI</text>
+  <text x="79" y="274" fill="#72f6b5" font-family="SFMono-Regular, Consolas, Liberation Mono, monospace" font-size="18">building useful things, one system at a time_</text>
+</svg>
