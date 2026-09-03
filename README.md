@@ -1,17 +1,42 @@
 <div align="center">
-  <img src="./assets/header.svg" alt="Rafał Karwot — Backend, distributed systems and AI" width="100%" />
+  <img src="./assets/header.svg" alt="Rafał Karwot — AI Software Engineer and Product Builder" width="100%" />
 </div>
 
 <br />
 
-I turn ideas into working products — from clean APIs and background workers to AI-powered workflows and practical full-stack applications.
+I'm an **AI Software Engineer & Product Builder** focused on turning LLMs into useful, reliable software — from agentic workflows and knowledge systems to complete products people can use.
 
-- 🔭 Currently focused on **agentic systems, orchestration, and asynchronous processing**
-- 🧩 I enjoy designing **simple architectures for complex product problems**
-- 🚀 I build end to end: **backend, integrations, infrastructure, and just enough frontend**
-- 🌱 Always exploring better ways to make software **reliable, observable, and easy to extend**
+- 🧠 I build with **LLMs, tool calling, RAG, agents, and intelligent automation**
+- 🚀 I take products end to end: **AI, backend, integrations, infrastructure, and frontend**
+- ⚙️ My foundations are **Python, FastAPI, distributed systems, and pragmatic architecture**
+- 🎯 Currently building **SuperSeller, Maddie, and Citi Hunt**
 
-## Selected projects
+## Products I'm building
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3><a href="https://superseller.pl">SuperSeller</a></h3>
+      <p><strong>AI customer service for Allegro sellers.</strong></p>
+      <p>Controlled automation that answers repetitive buyer questions using the store's own knowledge and rules — while handing uncertain cases back to a human.</p>
+      <p><a href="https://superseller.pl"><strong>Visit SuperSeller →</strong></a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://getmaddie.com">Maddie</a></h3>
+      <p><strong>Your spoiler-free AI movie buddy.</strong></p>
+      <p>A browser companion that watches along and answers questions about characters, relationships, music, and details you may have missed.</p>
+      <p><a href="https://getmaddie.com"><strong>Meet Maddie →</strong></a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://citi-hunt.io">Citi Hunt</a></h3>
+      <p><strong>Turn the city into an adventure.</strong></p>
+      <p>A gamified urban experience built around exploration, real-world challenges, and discovering places from a new perspective.</p>
+      <p><a href="https://citi-hunt.io"><strong>Explore Citi Hunt →</strong></a></p>
+    </td>
+  </tr>
+</table>
+
+## Selected engineering projects
 
 ### [Nava Triage](https://github.com/MORY33/triage-system)
 
